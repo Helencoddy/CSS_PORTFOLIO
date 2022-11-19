@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    list-style: none;
+}
+.logo {
+    width: 70px;
+    float: left;
+    justify-content: space-between;
+}
+
+a {
+    color: black;
+}
+
+.image img{
+    width: 300px;
+    border-radius: 8px;
+}
+
+body {
+    color: black;
+    padding: 50px 100px;
+}
+
+p, .body-text {
+    font-size: 16px;
+}
+
+div.wrapper {
+    background-color: rgba(237,239,241,255);
+    padding: 10px 40px;
+    width: 57%;
+    margin: 0 auto;
+}
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+ul.navigation {
+    display: flex;
+}
+
+ul.navigation li {
+    margin-left: 25px;
+}
+
+ul.navigation li button {
+    color: white;
+    background-color: black;
+    padding: 5px 7px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+div.intro-start {
+    display: flex;
+    float: right;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+.about-me{
+    margin-right: 1rem;
+    padding: 50px;
+}
+
+.career-intro {
+    float: left;
+    width: 50%;
+    padding-top: 30px;
+}
+
+.about-skills{
+    float: left;
+    padding: 50px;
+    padding-bottom: 140px;
+}
+
+.about-skills span li {
+    margin: 3px;
+    text-transform: uppercase;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 13px;
+}
+
+div.about-skills span {
+    display: flex;
+}
+
+div.about-skills span li {
+    margin: 3px;
+    text-transform: uppercase;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 13px;
+}
+
+
+/*div.wrapper{
+    background-color: rgba(237,239,241,255);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    max-height: 230px;
+}*/
+
+
+/*.body-text {
+   margin-right: 2rem;
+   padding: 50px;
+   padding-bottom: 30px;
+}*/
